@@ -1,0 +1,114 @@
+@media screen and (min-width: 64em){
+}
+
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em){
+    #nav_1,
+    #nav_2,
+    .fa-search{
+        display: none;
+    }
+    .img_header {
+        width: 175.25px;
+        height: 80px;
+        margin-left: -7em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #header .fa-bars{
+        font-size: 40px;
+        margin-right: 18em;    
+    }
+    .content {
+        
+        width: 77em;
+        padding: 0 86px;
+    }
+    .content_heading1 {
+        font-size: 7rem;
+        
+    }
+    .content_heading2 {
+        font-size: 7rem;
+    }
+    #introduce {
+        
+        width: 84em;
+    }   
+    #about {
+        position: absolute;
+        top: 52em;
+    }
+    .img_content {
+        width: 19em;
+        margin-top: 69px;
+    }
+    #introduce {
+        position: relative;
+        height: 2521px;
+        margin-top: 150px;
+        overflow: hidden;
+        margin-bottom: 136px;
+    }
+    .img__about {
+        width: 34em;
+        height: 52em;
+        border-radius: 55px;
+
+    }
+    .img_about {
+        position: absolute;
+        width: 34em;
+        height: 52em;
+        object-fit: cover;
+        border-radius: 55px;
+        -webkit-transform: none;
+        transform: none;
+    }
+    .about_heading{
+        
+        font-size: 43px;
+    }
+    .about_title{
+        font-size: 79px;
+        margin: 22px 0;
+    }
+    .content_para{
+        font-size: 30px;
+    }
+    .about_dish {
+        position: absolute;
+        margin-left: -39em;
+        margin-top: 103px;
+    }
+    .dish_title{
+        font-size: 42px;
+        margin-bottom: 42px;
+    }
+    .dish_img {
+        width: 23em;
+        height: 23em;
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+        border-radius: 0 20px;
+    }
+    .dish_name {
+        font-size: 31px;
+        margin-top: 25px;
+    }
+    #special {
+        position: relative;
+        background-color: #f7f8f9;
+        padding-top: 130px;
+        padding-left: 24px;
+        padding-right: 24px;
+        height: 4000px;
+        /* overflow: hidden; */
+        width: 84em;
+    }
+    .name_dish1.aos-init.aos-animate {
+        font-size: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 46.1875em){
+}
