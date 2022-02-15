@@ -812,7 +812,7 @@ html{
 .number_heading5{
     display: block;
     font-size: 60px;
-    font-family: 'Amita', cursive;    
+    font-family: Helvetica, Arial, sans-serif;
     position: relative;
     margin-left: 24px;
 }

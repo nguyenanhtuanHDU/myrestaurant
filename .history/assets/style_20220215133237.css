@@ -368,7 +368,7 @@ html{
 .number_heading1{
     display: block;
     font-size: 60px;
-    font-family: 'Amita', cursive;
+    font-family: Helvetica, Arial, sans-serif;
     position: relative;
     margin-left: 24px;
 }
@@ -479,7 +479,7 @@ html{
 .number_heading2{
     display: block;
     font-size: 60px;
-    font-family: 'Amita', cursive;    
+    font-family: Helvetica, Arial, sans-serif;
     position: relative;
     margin-left: 15px;
 }
@@ -591,7 +591,7 @@ html{
 .number_heading3{
     display: block;
     font-size: 60px;
-    font-family: 'Amita', cursive;    
+    font-family: Helvetica, Arial, sans-serif;
     position: relative;
     margin-left: 24px;
 }
@@ -701,7 +701,7 @@ html{
 .number_heading4{
     display: block;
     font-size: 60px;
-    font-family: 'Amita', cursive;    
+    font-family: Helvetica, Arial, sans-serif;
     position: relative;
     margin-left: 15px;
 }
@@ -812,7 +812,7 @@ html{
 .number_heading5{
     display: block;
     font-size: 60px;
-    font-family: 'Amita', cursive;    
+    font-family: Helvetica, Arial, sans-serif;
     position: relative;
     margin-left: 24px;
 }
@@ -996,7 +996,7 @@ html{
 .item_heading {
     text-align: center;
     font-size: 28px;
-    font-family: 'Oleo Script', cursive;    
+    font-family: 'Josefin Sans',sans-serif;
     font-weight: 400;
     margin-bottom: 3rem;
     margin-right: 85px;
@@ -1004,6 +1004,7 @@ html{
 .item_dish {
     padding-bottom: 15px;
     margin-bottom: 15px;
+    cursor: pointer;
 
 }
 .bg_color1{
@@ -1043,16 +1044,14 @@ html{
     text-align: center;
     background-color: white;
     position: absolute;
-    top: 806px;
-    width: 350px;
+    top: 831px;
+    width: 351px;
     margin-left: 0;
     padding: 6px 0px;
     display: none;
     z-index: 4;
-    box-shadow: 0 0 15px 0px #000;
-    clip-path: inset(0px -15px 0px -15px);
+    transition: 1.5s ease;
 }
-
 .chef_item:hover .chef_infor1{
     display: block;
     animation: to_up 1.5s ease;
@@ -1075,27 +1074,27 @@ html{
     25%{
         width: 290px;
         margin-left: 31px;
-        top: 770px;
+        top: 800px;
         opacity: 0.5;
     }
     50%{
         width: 290px;
         margin-left: 31px;
-        top: 806px;
+        top: 800px;
         opacity: 1;
-        width: 350px;
+        width: 351px;
         margin-left: 0;
     }
     75%{
         width: 290px;
         margin-left: 31px;
-        top: 806px;
+        top: 831px;
         opacity: 1;
-        width: 350px;
+        width: 351px;
         margin-left: 0;
     }
     100%{
-        width: 350px;
+        width: 351px;
         margin-left: 0;
     }
 }
@@ -1116,7 +1115,7 @@ html{
     height: 400px;
     object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 21px;
+    border-top-left-radius: 32px;
 }
 .list_chef{
     display: flex;
@@ -1153,6 +1152,7 @@ html{
     width: 1350px;
     height: 737px;
     object-fit: cover;
+    opacity: 0.6;
 }
 #open_hour{
     display: flex;

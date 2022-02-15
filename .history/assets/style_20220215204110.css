@@ -368,7 +368,7 @@ html{
 .number_heading1{
     display: block;
     font-size: 60px;
-    font-family: 'Amita', cursive;
+    font-family: Helvetica, Arial, sans-serif;
     position: relative;
     margin-left: 24px;
 }
@@ -479,7 +479,7 @@ html{
 .number_heading2{
     display: block;
     font-size: 60px;
-    font-family: 'Amita', cursive;    
+    font-family: Helvetica, Arial, sans-serif;
     position: relative;
     margin-left: 15px;
 }
@@ -591,7 +591,7 @@ html{
 .number_heading3{
     display: block;
     font-size: 60px;
-    font-family: 'Amita', cursive;    
+    font-family: Helvetica, Arial, sans-serif;
     position: relative;
     margin-left: 24px;
 }
@@ -701,7 +701,7 @@ html{
 .number_heading4{
     display: block;
     font-size: 60px;
-    font-family: 'Amita', cursive;    
+    font-family: Helvetica, Arial, sans-serif;
     position: relative;
     margin-left: 15px;
 }
@@ -812,7 +812,7 @@ html{
 .number_heading5{
     display: block;
     font-size: 60px;
-    font-family: 'Amita', cursive;    
+    font-family: Helvetica, Arial, sans-serif;
     position: relative;
     margin-left: 24px;
 }
@@ -1047,10 +1047,9 @@ html{
     width: 350px;
     margin-left: 0;
     padding: 6px 0px;
-    display: none;
+    /* display: none; */
     z-index: 4;
-    box-shadow: 0 0 15px 0px #000;
-    clip-path: inset(0px -15px 0px -15px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px, rgba(0, 0, 0, 0.3) 0px 30px , rgba(10, 37, 64, 0.35) 0px -2px  inset;
 }
 
 .chef_item:hover .chef_infor1{
@@ -1153,6 +1152,7 @@ html{
     width: 1350px;
     height: 737px;
     object-fit: cover;
+    opacity: 0.6;
 }
 #open_hour{
     display: flex;

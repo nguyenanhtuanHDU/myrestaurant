@@ -591,8 +591,7 @@ html{
 .number_heading3{
     display: block;
     font-size: 60px;
-    font-family: 'Amita', cursive;    
-    position: relative;
+    font-family: 'Amita', cursive;    position: relative;
     margin-left: 24px;
 }
 .number_heading3:before{
@@ -701,7 +700,7 @@ html{
 .number_heading4{
     display: block;
     font-size: 60px;
-    font-family: 'Amita', cursive;    
+    font-family: Helvetica, Arial, sans-serif;
     position: relative;
     margin-left: 15px;
 }
@@ -812,7 +811,7 @@ html{
 .number_heading5{
     display: block;
     font-size: 60px;
-    font-family: 'Amita', cursive;    
+    font-family: Helvetica, Arial, sans-serif;
     position: relative;
     margin-left: 24px;
 }
