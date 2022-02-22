@@ -803,7 +803,7 @@ html{
 .btn_dish4:hover:before{
     width: 100%;
 }
-.btn_dish4:hover  {
+.btn_dish1:hover  {
     color: white;
     transition: 0.6s ease;
 }
@@ -914,10 +914,7 @@ html{
 .btn_dish5:hover:before{
     width: 100%;
 }
-.btn_dish5:hover  {
-    color: white;
-    transition: 0.6s ease;
-}
+
 .btn_dish5  {
     text-decoration: none;
     position: relative;
@@ -1462,8 +1459,8 @@ html{
     border: 1px solid #ccc;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 83px;
-    border-radius: 45px;
+    padding-right: 84px;
+    border-radius: 12px;
     padding-left: 22px;
     margin-top: 16px;
     display: block;
@@ -1482,16 +1479,14 @@ html{
 }
 .email_button {
     position: relative;
-    border: 1px solid;
+    border: 2px solid;
     padding: 10px 110px;
     font-size: 17px;
+    border-radius: 24px;
     color: black;
     transition: 0.5s ease;
     cursor: pointer;
     font-family: Helvetica, Arial, sans-serif;
-}
-.email_button:hover {
-    color: white;
 }
 .email_button::before{
     content: '';
@@ -1499,13 +1494,15 @@ html{
     top: 0;
     left: 0;
     height: 40px;
+    border-radius: 21px 0 0 21px;
     width: 0rem;
-    background-color: #d65076;
+    background-color: #45b8ac;
     z-index: -1;
     transition: 0.5s ease;
 }
 .email_button:hover:before{
     width: 274px;
+    border-radius: 21px;
 }
 .email_text::before{
     content: "";

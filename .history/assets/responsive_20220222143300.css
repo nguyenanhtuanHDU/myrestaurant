@@ -150,7 +150,7 @@
     }
     #special {
         position: relative;
-        background-color: white;
+        background-color: #f7f8f9;
         padding-top: 130px;
         padding-left: 24px;
         padding-right: 24px;
@@ -698,11 +698,11 @@
         margin-top: 84px;
     }
     .modal__social i {
-        font-size: 90px;
+        fo
         margin: 0 19px;
     }
     .modal__social {
-        margin-left: 389px;
+        margin-left: 155px;
         margin-top: 49px;
         color: white;
     }
@@ -710,7 +710,7 @@
         margin-top: -153px;
         margin-left: 408px;
         margin-bottom: 8px;
-        font-size: 52px;
+        font-size: 53px;
     }
     .sign_up {
         font-size: 47px;
@@ -938,7 +938,7 @@
     #special {
         height: 22249px;
         width: 85em;
-        background-color: white;
+
     }
     .infor_dish1 {
         position: absolute;
@@ -1538,10 +1538,6 @@
         font-size: 5em;
         border-radius: 24px;
     }
-    .email_button:hover {
-        background-color: #000;
-        color: white;
-    }
     .email_heading::before{
         display: none;
     }
@@ -1561,10 +1557,10 @@
         display: none;
     }
     .sign_in {
-        font-size: 79px;
+        font-size: 5em;
         position: absolute;
         top: 4rem;
-        left: 416px;
+        left: 26rem;
     }
     .modal_container {
         animation: modalFadeIn 1s ease;
@@ -1601,7 +1597,7 @@
         display: block;
         margin-left: 10px;
         margin-top: 32px;
-        font-size: 70px;
+        font-size: 5em;
     }
     .modal_input::placeholder{
         font-size: 60px;
@@ -1611,7 +1607,7 @@
         margin-left: 8px;
         padding-top: 15px;
         padding-bottom: 22px;
-        padding-right: 90px;
+        padding-right: 0;
         padding-left: 57px;
         margin-top: 44px;
         margin-bottom: 60px;
@@ -1625,21 +1621,17 @@
     }
     .modal_button {
         margin-left: 8px;
-        padding: 36px 375px;
+        padding: 36px 22rem;
         border-radius: 32px;
-        font-size: 69px;
+        font-size: 5em;
     }
     .modal__sign {
         text-align: center;
-        font-size: 62px;
+        font-size: 3em;
         margin-top: 102px;
     }
     .modal__social{
         margin-top: 76px;
-        margin-left: 274px;
-    }
-    .modal__social i {
-        margin: 0 -43px;
     }
     .modal_social {
         font-size: 5em;

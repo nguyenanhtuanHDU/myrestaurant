@@ -1540,7 +1540,7 @@
     }
     .email_button:hover {
         background-color: #000;
-        color: white;
+        color: w;
     }
     .email_heading::before{
         display: none;

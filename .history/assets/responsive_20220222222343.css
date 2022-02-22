@@ -1538,9 +1538,7 @@
         font-size: 5em;
         border-radius: 24px;
     }
-    .email_button:hover {
-        background-color: #000;
-        color: white;
+    .email_button:ho {
     }
     .email_heading::before{
         display: none;

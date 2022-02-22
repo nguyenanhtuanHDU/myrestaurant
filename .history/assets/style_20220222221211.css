@@ -1258,6 +1258,7 @@ html{
     position: relative;
     margin-top: 250px;
     padding-top: 155px;
+    background-color: ;
 }
 .content_restaurant{
     width: 33.3333%;
@@ -1462,8 +1463,8 @@ html{
     border: 1px solid #ccc;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 83px;
-    border-radius: 45px;
+    padding-right: 84px;
+    border-radius: 12px;
     padding-left: 22px;
     margin-top: 16px;
     display: block;
