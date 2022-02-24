@@ -26,9 +26,9 @@ html{
     top: 0;
     width: 100%;
     z-index: 4;
-    -webkit-box-shadow: 0 8px 6px -6px #45b8ac;
-	-moz-box-shadow: 0 8px 6px -6px #45b8ac;
-	box-shadow: 0 8px 6px -6px #45b8ac;
+    -webkit-box-shadow: 0 8px 6px -6px #;
+	-moz-box-shadow: 0 8px 6px -6px #;
+	box-shadow: 0 8px 6px -6px #;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1219,7 +1219,6 @@ html{
     font-weight: 400;
     margin-bottom: 3rem;
     margin-right: 85px;
-    color: #fff;
 }
 .item_dish {
     padding-bottom: 15px;
