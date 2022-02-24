@@ -1235,7 +1235,6 @@ html{
 }
 .counter_container{
     display: flex;
-    margin-top: 51px;
 }
 .counter_viewer{
     background-color: #82b440;

@@ -26,12 +26,11 @@ html{
     top: 0;
     width: 100%;
     z-index: 4;
-    -webkit-box-shadow: 0 8px 6px -6px #efc050;
-	-moz-box-shadow: 0 8px 6px -6px #efc050;
-	box-shadow: 0 8px 6px -6px #efc050;
+    box-shadow: 0 10px 20px -5px rgba(115,115,115,0.75);
     display: flex;
     align-items: center;
     justify-content: center;
+    ma
     background-color: white;
 }
 
@@ -1235,7 +1234,6 @@ html{
 }
 .counter_container{
     display: flex;
-    margin-top: 51px;
 }
 .counter_viewer{
     background-color: #82b440;

@@ -71,7 +71,7 @@
         display: none;
     }
     #header{
-        position: fixed;
+        width: 188%;
     }
     #header .fa-bars{
         font-size: 40px;
@@ -813,9 +813,6 @@
         background-color: #45b8ac;
         text-align: center;
 
-    }
-    #header{
-        position: fixed;
     }
     #nav_1 li {
         display: block;

@@ -70,9 +70,6 @@
     #nav_2 li a i{
         display: none;
     }
-    #header{
-        position: fixed;
-    }
     #header .fa-bars{
         font-size: 40px;
         margin-right: 18em;    
@@ -800,7 +797,9 @@
     #header .fa-align-justify{
         display: none;
     }
-    
+    #header{
+        width: 188%;
+    }
     #nav_1 {
         position: absolute;
         top: 181px;
@@ -813,9 +812,6 @@
         background-color: #45b8ac;
         text-align: center;
 
-    }
-    #header{
-        position: fixed;
     }
     #nav_1 li {
         display: block;

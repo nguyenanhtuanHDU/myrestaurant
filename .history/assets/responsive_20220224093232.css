@@ -71,6 +71,7 @@
         display: none;
     }
     #header{
+        width: 188%;
         position: fixed;
     }
     #header .fa-bars{
