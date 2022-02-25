@@ -134,7 +134,6 @@
     }
     .img_reser {
         width: calc(179% + 29px);
-        height: 38em;
     }
     .about_title{
         font-size: 79px;
@@ -618,7 +617,6 @@
         padding-left: 60px;
         margin-top: 16px;
         display: block;
-        font-size: 55px;
         margin-bottom: 108px;
         border: 1px solid red;
     }
@@ -645,67 +643,8 @@
         color: white;
         background-color: black;
     }
-    /* input[type="text"]{
+    input[type="text"]{
         font-size: 55px;
-    } */
-    #reser {
-        position: relative;
-        margin-top: 163px;
-        margin-left: -31px;
-        height: 103em;
-    }
-    .reser_input{
-        font-size: 40px;
-    }
-    .reser_book {
-        top: 80px;
-        left: 87px;
-        width: 80em;
-        height: 106em;
-        padding: 10px 10px;
-    }
-    .reser_title {
-        color: #45b8ac;
-        font-size: 44px;
-        font-family: Helvetica, Arial, sans-serif;
-        margin-top: 10px;
-        letter-spacing: 5px;
-    }
-    .reser_heading {
-        font-family: 'Lobster', cursive;
-        margin-bottom: 73px;
-        font-size: 77px;
-        margin-top: 20px;
-    }
-    .reser_input {
-        font-size: 49px;
-        width: 20em;
-        margin-bottom: 58px;
-        padding: 35px 20px;
-        border: 2px solid;
-    }
-    .time_input {
-        width: calc(10em + -1px);
-        border: 2px solid;
-        padding: 28px 10px;
-        border-radius: 14px;
-        margin-bottom: 57px;
-        font-size: 49px;
-    }
-    .message_rester {
-        min-width: 20em;
-        max-width: 20em;
-        height: 6em;
-        padding: 10px 10px;
-        display: block;
-        margin-bottom: 33px;
-        border: 2px solid;
-        font-size: 49px;
-    }
-    .btn_reser {
-        font-size: 49px;
-        padding: 40px 326px;
-        border-radius: 131px;
     }
     .btn_container i {
         font-size: 139px;
@@ -754,7 +693,6 @@
         margin-top: 43px;
         border-radius: 100px;
         border: 1px solid;
-        font-size: 56px;
     }
     .modal__fogot {
         margin-left: 553px;
@@ -1729,73 +1667,11 @@
         margin-bottom: 60px;
         border-radius: 99px;
         border: 1px solid;
-        font-size: 70px;
     }
     .modal_fogot {
         font-size: 4em;
         margin-left: 44px;
         margin-bottom: 1em;
-    }
-    .img_reser {
-        width: calc(100% + 46px);
-        height: 36em;
-    }
-    #reser {
-        margin-top: 163px;
-        height: 100em;
-        margin-left: -31px;
-    }
-    .reser_book {
-        position: absolute;
-        top: 80px;
-        left: 30px;
-        width: 81em;
-        height: 120em;
-    }
-    .reser_title {
-        font-size: 3em;
-        margin-top: 10px;
-    }
-    .reser_heading {
-        font-size: 6em;
-        margin-bottom: 43px;
-    }
-    .reser_input {
-        margin-bottom: 64px;
-        width: 18em;
-        padding: 40px 34px;
-        border-radius: 34px;
-        border: 2px solid;
-        font-size: 64px;
-    }
-    .time_input {
-        width: calc(9em + -2px);
-        border: 2px solid;
-        padding: 38px 34px;
-        border-radius: 24px;
-        margin-bottom: 56px;
-        font-size: 64px;
-    }
-    .message_rester {
-        min-width: 18em;
-        max-width: 18em;
-        height: 7em;
-        padding: 24px 35px;
-        display: block;
-        margin-bottom: 12px;
-        font-size: 64px;
-        border: 2px solid;
-    }
-    .btn_reser {
-        font-size: 74px;
-        padding: 35px 331px;
-        border-radius: 123px;
-        border: 1px solid #ccc;
-        background-color: #45b8ac;
-        color: white;
-        transition: 0.6s ease;
-        cursor: pointer;
-        margin-top: 46px;
     }
     .modal_button {
         margin-left: 8px;
@@ -1852,6 +1728,12 @@
     }
     .counter_text {
         font-size: 125px;
+    }
+    input[type="text"]{
+        font-size: 70px;
+    }
+    input[type="password"]{
+        font-size: 70px;
     }
     .btn_container i {
         font-size: 139px;

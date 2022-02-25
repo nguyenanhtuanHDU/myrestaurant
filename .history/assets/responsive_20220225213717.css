@@ -1768,7 +1768,7 @@
         border: 2px solid;
         font-size: 64px;
     }
-    .time_input {
+    ..time_input {
         width: calc(9em + -2px);
         border: 2px solid;
         padding: 38px 34px;

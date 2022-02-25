@@ -1750,7 +1750,7 @@
         top: 80px;
         left: 30px;
         width: 81em;
-        height: 120em;
+        height: 114em;
     }
     .reser_title {
         font-size: 3em;
@@ -1768,7 +1768,7 @@
         border: 2px solid;
         font-size: 64px;
     }
-    .time_input {
+    ..time_input {
         width: calc(9em + -2px);
         border: 2px solid;
         padding: 38px 34px;
@@ -1785,17 +1785,6 @@
         margin-bottom: 12px;
         font-size: 64px;
         border: 2px solid;
-    }
-    .btn_reser {
-        font-size: 74px;
-        padding: 35px 331px;
-        border-radius: 123px;
-        border: 1px solid #ccc;
-        background-color: #45b8ac;
-        color: white;
-        transition: 0.6s ease;
-        cursor: pointer;
-        margin-top: 46px;
     }
     .modal_button {
         margin-left: 8px;

@@ -1451,14 +1451,13 @@ html{
 }
 .reser_heading{
     font-family: 'Lobster', cursive;
-    margin-bottom: 14px;
 }
 .reser_title{
     color: #45b8ac;
     font-size: 18px;
     font-family: Helvetica, Arial, sans-serif;
-    margin-top: 10px;
 }
+
 .reser_input {
     margin-bottom: 12px;
     width: 25em;

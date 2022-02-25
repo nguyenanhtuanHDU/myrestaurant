@@ -1431,70 +1431,7 @@ html{
     height: 737px;
     object-fit: cover;
 }
-#reser{
-    position: relative;
-    margin-top: 163px;
-    margin-left: -31px;
-}
-.img_reser{
-    width: calc(100% + 29px);
-}
-.reser_book {
-    position: absolute;
-    top: 80px;
-    left: 30px;
-    width: 450px;
-    height: 560px;
-    padding: 10px 10px;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-.reser_heading{
-    font-family: 'Lobster', cursive;
-    margin-bottom: 14px;
-}
-.reser_title{
-    color: #45b8ac;
-    font-size: 18px;
-    font-family: Helvetica, Arial, sans-serif;
-    margin-top: 10px;
-}
-.reser_input {
-    margin-bottom: 12px;
-    width: 25em;
-    padding: 10px 10px;
-    border-radius: 14px;
-    border: 1px solid #ccc;
-}
-.time_input {
-    width: calc(12em + 4px);
-    border: 1px solid #ccc;
-    padding: 8px 10px;
-    border-radius: 14px;
-    margin-bottom: 12px;
-}
-.message_rester {
-    min-width: 25em;
-    max-width: 25em;
-    height: 10em;
-    padding: 10px 10px;
-    display: block;
-    margin-bottom: 12px;
-    border: 1px solid #ccc;
-}
-.btn_reser {
-    font-size: 17px;
-    padding: 10px 14px;
-    border-radius: 26px;
-    border: 1px solid #ccc;
-    background-color: #45b8ac;
-    color: white;
-    transition: 0.6s ease;
-    cursor: pointer;
-}
-.btn_reser:hover {
-    background-color: black;
-}
+#re
 #open_hour{
     display: flex;
     position: relative;

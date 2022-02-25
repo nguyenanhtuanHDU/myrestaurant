@@ -1750,52 +1750,16 @@
         top: 80px;
         left: 30px;
         width: 81em;
-        height: 120em;
+        height: 114em;
     }
     .reser_title {
         font-size: 3em;
         margin-top: 10px;
     }
     .reser_heading {
-        font-size: 6em;
-        margin-bottom: 43px;
-    }
-    .reser_input {
-        margin-bottom: 64px;
-        width: 18em;
-        padding: 40px 34px;
-        border-radius: 34px;
-        border: 2px solid;
-        font-size: 64px;
-    }
-    .time_input {
-        width: calc(9em + -2px);
-        border: 2px solid;
-        padding: 38px 34px;
-        border-radius: 24px;
-        margin-bottom: 56px;
-        font-size: 64px;
-    }
-    .message_rester {
-        min-width: 18em;
-        max-width: 18em;
-        height: 7em;
-        padding: 24px 35px;
-        display: block;
-        margin-bottom: 12px;
-        font-size: 64px;
-        border: 2px solid;
-    }
-    .btn_reser {
-        font-size: 74px;
-        padding: 35px 331px;
-        border-radius: 123px;
-        border: 1px solid #ccc;
-        background-color: #45b8ac;
-        color: white;
-        transition: 0.6s ease;
-        cursor: pointer;
-        margin-top: 46px;
+        font-family: 'Lobster', cursive;
+        margin-bottom: 14px;
+        font-size: 7em;
     }
     .modal_button {
         margin-left: 8px;
