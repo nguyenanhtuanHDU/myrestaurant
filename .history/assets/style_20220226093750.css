@@ -1237,7 +1237,7 @@ html{
 }
 .counter_container{
     display: flex;
-    margin-top: 20px;
+    margin-top: 51px;
 }
 .counter_viewer{
     background-color: #82b440;
@@ -1464,11 +1464,7 @@ html{
     outline: none !important;
     border-color: #45b8ac;
 }
-.time_input:focus {
-    outline: none !important;
-    border-color: #45b8ac;
-}
-.message_rester:focus {
+.reser_input:focus {
     outline: none !important;
     border-color: #45b8ac;
 }
@@ -1528,7 +1524,6 @@ html{
     position: relative;
     margin-top: 250px;
     padding-top: 155px;
-    padding-bottom: 100px;
 }
 .content_restaurant{
     position: relative;

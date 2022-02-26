@@ -23,8 +23,6 @@ html{
 #header{
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
     width: 100%;
     z-index: 4;
     -webkit-box-shadow: 0 8px 6px -6px #45b8ac;
@@ -1237,7 +1235,7 @@ html{
 }
 .counter_container{
     display: flex;
-    margin-top: 20px;
+    margin-top: 51px;
 }
 .counter_viewer{
     background-color: #82b440;
@@ -1460,39 +1458,12 @@ html{
     font-family: Helvetica, Arial, sans-serif;
     margin-top: 10px;
 }
-.reser_input:focus {
-    outline: none !important;
-    border-color: #45b8ac;
-}
-.time_input:focus {
-    outline: none !important;
-    border-color: #45b8ac;
-}
-.message_rester:focus {
-    outline: none !important;
-    border-color: #45b8ac;
-}
 .reser_input {
     margin-bottom: 12px;
     width: 25em;
     padding: 10px 10px;
     border-radius: 14px;
     border: 1px solid #ccc;
-}
-.reser__input{
-    position: relative;
-}
-.place_input {
-    position: absolute;
-    top: 10px;
-    left: 64px;
-    font-size: 15.5px;
-    transition: 0.4s ease all;
-}
-.reser_input:focus +.place_input{
-    top: -9px;
-    padding: 0 10px;
-    background-color: white;
 }
 .time_input {
     width: calc(12em + 4px);
@@ -1528,7 +1499,6 @@ html{
     position: relative;
     margin-top: 250px;
     padding-top: 155px;
-    padding-bottom: 100px;
 }
 .content_restaurant{
     position: relative;

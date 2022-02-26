@@ -664,12 +664,6 @@
         font-size: 58px;
         transition: 0.4s ease all;
     }
-    .reser_input:focus +.place_input{
-        top: -35px;
-        left: 204px;
-        padding: 0 30px;
-        background-color: white;
-    }
     .reser_book {
         top: 80px;
         left: 87px;
