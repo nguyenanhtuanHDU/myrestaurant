@@ -1689,19 +1689,24 @@
     .sign_in {
         font-size: 79px;
         position: absolute;
-        top: 4rem;
-        left: 416px;
+        top: 6rem;
+        left: 481px;
     }
     .modal_container {
         animation: modalFadeIn 1s ease;
-        width: 68em;
+        width: 78em;
+    }
+    .modal_close {
+        position: relative;
+        left: -23px;
+        top: 22px;
     }
     .modal_header {
         position: relative;
-        height: 14em;
+        height: 20em;
         border-top-left-radius: 68px;
         border-top-right-radius: 68px;
-        width: 68em;
+        width: 78em;
     }
     .modal__close {
         font-family: 'Font Awesome 5 Free';
@@ -1719,7 +1724,7 @@
         transition: 1s ease ;
     }
     .modal_body {
-        height: 93em;
+        height: 104em;
         border-bottom-left-radius: 68px;
         border-bottom-right-radius: 68px;
     }
@@ -1737,7 +1742,7 @@
         margin-left: 8px;
         padding-top: 15px;
         padding-bottom: 22px;
-        padding-right: 90px;
+        width: 99%;
         padding-left: 57px;
         margin-top: 44px;
         margin-bottom: 60px;
@@ -1826,7 +1831,7 @@
     }
     .modal_button {
         margin-left: 8px;
-        padding: 36px 375px;
+        padding: 36px 457px;
         border-radius: 32px;
         font-size: 69px;
     }
@@ -1837,7 +1842,7 @@
     }
     .modal__social{
         margin-top: 76px;
-        margin-left: 274px;
+        margin-left: 360px;
     }
     .modal__social i {
         margin: 0 -43px;
@@ -1846,14 +1851,19 @@
         font-size: 5em;
         padding: 0 79px;
     }
+    .modal__fogot {
+        margin-left: 407px;
+        margin-top: 20px;
+        padding-bottom: 55px;
+    }
     .modal_account {
-        margin-top: -189px;
-        margin-left: 262px;
-        margin-bottom: 8px;
+        margin-top: -304px;
+        margin-left: 329px;
+        margin-bottom: 66px;
         font-size: 4em;
     }
     .sign_up {
-        margin-left: 341px;
+        margin-left: 407px;
         font-size: 4em;
     }
     #counter_number {
