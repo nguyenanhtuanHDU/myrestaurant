@@ -424,10 +424,7 @@
         padding-left: 78px;
         width: 88em;
     }
-    .bg_team{
-        width: 1426px;
-        top: 410px;
-    }
+    
     #menu {
         position: relative;
         padding: 159px 22px;
@@ -490,9 +487,7 @@
         padding-top: 10rem;
         margin-left: 37px;
     }
-    .bg_team{
-        display: none;
-    }
+    
     .team_title{
         font-size: 44px;
     }
@@ -1210,10 +1205,10 @@
         right: 90px;
         display: inline-block;
     }
-    .menu_video,
-    .bg_team{
+    .menu_video{
         display: none;
     }
+    
     .number_heading3 {
         font-size: 11em;
         margin-left: -1180px;
