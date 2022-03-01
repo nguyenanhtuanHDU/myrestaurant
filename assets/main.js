@@ -38,7 +38,6 @@ var myIndex = 0;
 		modalContainer.addEventListener('click', function (event) {
 			event.stopPropagation()
 		})
-
 function open_menu(){
 	var a = document.getElementById('nav_1')
 	var b = document.getElementById('nav_2')
@@ -53,15 +52,20 @@ function open_menu(){
 
 	}
 }
+function hidden_menu(){
+	var a = document.getElementById('nav_1')
+	var b = document.getElementById('nav_2')
+	if(a.style.display == 'block'){
+		a.style.display = 'none'
+		b.style.display = 'none'
+	}
 
+}
 
-
-
-
-      $(document).ready(function(){
-          $(".counter__number").counterUp({
-              delay: 10,
-              time: 1600
-          })
-      });
+$(document).ready(function(){
+    $(".counter__number").counterUp({
+        delay: 10,
+        time: 1600
+    })
+});
 
