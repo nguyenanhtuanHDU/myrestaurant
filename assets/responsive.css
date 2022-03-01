@@ -1599,7 +1599,7 @@
     #open_hour {
         display: block;
         position: relative;
-        margin-top: 471px;
+        margin-top: 888px;
         padding-top: 249px;
         padding-bottom: 10em;
     }
@@ -1772,7 +1772,8 @@
         top: 80px;
         left: 30px;
         width: 81em;
-        height: 129em;
+        height: 152em;
+        padding-top: 200px;
     }
     .reser_title {
         font-size: 3em;
