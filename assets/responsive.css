@@ -29,7 +29,6 @@
     .counter_text {
         font-size: 79px;
     }
-    
     #header .fa-bars{
         display: none;
     }
@@ -1108,6 +1107,7 @@
         border: 1px solid;
         padding: 32px 26px;
         font-size: 57px;
+        color: white;
     }
     .text_dish1 {
         width: 345px;
@@ -1189,6 +1189,7 @@
         border: 1px solid;
         padding: 32px 26px;
         font-size: 57px;
+        color: white;
     }
     .dish_2{
         margin-top: 479em;
@@ -1279,6 +1280,7 @@
         border: 1px solid;
         padding: 32px 26px;
         font-size: 57px;
+        color: white;
     }
     .hover_img3 {
         width: 79em;
@@ -1361,6 +1363,7 @@
         border: 1px solid;
         padding: 32px 26px;
         font-size: 57px;
+        color: white;
     }
     .cost_dish4 {
         font-size: 5em;
@@ -1442,6 +1445,7 @@
         border: 1px solid;
         padding: 32px 26px;
         font-size: 57px;
+        color: white;
     }
     .cost_dish5 {
         font-size: 5em;
@@ -1903,6 +1907,12 @@
     .counter_text {
         font-size: 125px;
     }
+    .counter_viewer:hover .counter_number,
+    .counter_user:hover .counter_number,
+    .counter_online:hover .counter_number,
+    .counter_like:hover .counter_number{
+        font-size: 183px;
+    } 
     .btn_container i {
         font-size: 139px;
         color: white;

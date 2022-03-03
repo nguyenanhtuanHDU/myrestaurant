@@ -1214,20 +1214,34 @@ html{
     font-size: 50px;
     color: white;
     margin-top: 62px;
-    transition: 0.7s ease;
+    transition: 0.7s  ease;
 }
 .counter_viewer:hover .counter_number,
 .counter_user:hover .counter_number,
 .counter_online:hover .counter_number,
 .counter_like:hover .counter_number{
     color: black;
+    font-size: 80px;
     cursor: pointer;
+} 
+.counter_viewer:hover .counter__number,
+.counter_user:hover .counter__number,
+.counter_online:hover .counter__number,
+.counter_like:hover .counter__number{
+    margin-right: 120px;
+} 
+.counter_viewer:hover .counter_text,
+.counter_user:hover .counter_text,
+.counter_online:hover .counter_text,
+.counter_like:hover .counter_text{
+    margin-left: 120px;
 } 
 
 .counter__number{
     font-size: 44px;
     color: white;
     font-family: 'Open Sans', sans-serif;
+    transition: 0.7s ease;
 }
 .counter_text{
     color: #fff;
@@ -1235,6 +1249,7 @@ html{
     font-weight: bold;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 28px;
+    transition: 0.7s ease;
 }
 #team1{
     margin-top: 19em;
@@ -1431,6 +1446,7 @@ html{
     padding: 10px 10px;
     border-radius: 14px;
     border: 1px solid #ccc;
+    cursor: pointer;
 }
 .reser__input{
     position: relative;
@@ -1454,6 +1470,7 @@ html{
     padding: 8px 10px;
     border-radius: 14px;
     margin-bottom: 12px;
+    cursor: pointer;
 }
 .message_rester {
     min-width: 25em;
