@@ -70,9 +70,4 @@ $(document).ready(function(){
 });
 
 
-function alert_null(){
-	var a = document.getElementById('i_name').value
-	if(a == ''){
-		alert('aaa')
-	}
-}
+
