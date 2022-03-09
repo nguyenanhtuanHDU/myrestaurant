@@ -862,6 +862,9 @@
     html {
         scroll-behavior: smooth;
     }
+    #main{
+        width: 89em;
+    }
     .btn_container{
         position: fixed;
         bottom: 30px;
@@ -1764,7 +1767,7 @@
         margin-bottom: 1em;
     }
     .img_reser {
-        width: calc(100% + 46px);
+        width: calc(84em + 18px);
         height: 36em;
     }
     #reser {

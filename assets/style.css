@@ -450,9 +450,6 @@ html{
     font-family: 'Courgette', cursive;
 
 }
-.slider_dish{
-    width: 29em;
-}
 .about_dish{
     width: 120em;
 }
@@ -1397,7 +1394,6 @@ html{
     position: relative;
     margin-top: 163px;
     margin-left: -31px;
-    width: 105%;
 }
 
 .img_reser{

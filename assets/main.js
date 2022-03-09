@@ -38,6 +38,8 @@ var myIndex = 0;
 		modalContainer.addEventListener('click', function (event) {
 			event.stopPropagation()
 		})
+
+		
 function open_menu(){
 	var a = document.getElementById('nav_1')
 	var b = document.getElementById('nav_2')
