@@ -644,7 +644,6 @@
         margin-top: 163px;
         margin-left: -31px;
         height: 103em;
-        width: calc(90em + 2px);
     }
     .reser_input{
         font-size: 49px;
@@ -861,9 +860,7 @@
 @media screen and (max-width: 46.1875em){
     html {
         scroll-behavior: smooth;
-    }
-    #main{
-        width: 89em;
+        width: 84em;
     }
     .btn_container{
         position: fixed;
@@ -971,8 +968,7 @@
     .slider_dish {
         position: absolute;
         top: 78em;
-        width: 80em;
-        left: -167%;
+        
     }
     #introduce {
         position: relative;
@@ -1518,10 +1514,6 @@
     .chef_item {
         display: inline-block;
         width: 100%;
-    }
-    .list_dish {
-        display: flex;
-        width: 68%;
     }
     .list_chef {
         display: block;
