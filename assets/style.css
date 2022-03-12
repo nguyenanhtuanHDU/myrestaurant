@@ -1496,6 +1496,9 @@ html{
 }
 .btn_reser:hover {
     background-color: black;
+    color: #45b8ac;
+    border-radius: 0;
+
 }
 #open_hour{
     display: flex;
